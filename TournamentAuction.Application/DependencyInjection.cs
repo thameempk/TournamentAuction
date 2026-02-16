@@ -11,10 +11,7 @@ public static class DependencyInjection
         services.AddScoped<TournamentService>();
         services.AddScoped<AuctionService>();
         services.AddScoped<MatchService>();
-        
-        return services;
-        
+
         return services;
     }
 }
-
